@@ -10,7 +10,7 @@ services:
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://<DB_HOST>:3306/learninghub
       SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: Beshu@2107
+      SPRING_DATASOURCE_PASSWORD: 2006
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
       SERVER_ADDRESS: 0.0.0.0
     ports:
