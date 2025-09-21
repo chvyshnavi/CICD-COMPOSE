@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y git
 # Clone frontend repo
 RUN git clone https://github.com/chvyshnavi/CICD-.git .
 
+
 # Install dependencies and build
 RUN npm install
 RUN npm run build
