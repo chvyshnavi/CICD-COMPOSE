@@ -6,7 +6,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git
 
 # Clone frontend repo
-RUN git clone https://github.com/Beshwanthsai/LearningHub.git .
+RUN git clone https://github.com/chvyshnavi/CICD-.git .
 
 # Install dependencies and build
 RUN npm install
