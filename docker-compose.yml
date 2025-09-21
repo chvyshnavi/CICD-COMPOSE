@@ -12,6 +12,7 @@ services:
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: Beshu@2107
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      SERVER_ADDRESS: 0.0.0.0
     ports:
       - "8081:8080"  # backend mapped to host 8081
 
