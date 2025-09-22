@@ -25,4 +25,4 @@ services:
     ports:
       - "9090:8080"  # frontend Tomcat mapped to host 9090
     environment:
-      VITE_API_URL: http://13.222.187.90:8083
+      VITE_API_URL: http://13.221.128.185:8083
