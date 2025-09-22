@@ -2,7 +2,7 @@
 FROM node:18 AS build-stage
 WORKDIR /app
 
-# Install git
+# Install git pichi
 RUN apt-get update && apt-get install -y git
 
 # Clone frontend repo
